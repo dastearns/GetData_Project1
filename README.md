@@ -3,14 +3,14 @@
 ## Introduction
 
 This assignment uses data from
-the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
+the <a href="https://archive.ics.uci.edu/ml/datasets.html">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
-datasets. In particular, we will be using the "Individual household
-electric power consumption Data Set" which I have made available on
-the course web site:
+datasets. In particular, we will be using the "Human Activity Recognition Using Smartphones Data Set" which is available  o on the course web site: The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+Human Activity Recognition Using Smartphones
 
+<a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">
 
-* <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
+* <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ">Electric power consumption</a> [20Mb]
 
 * <b>Description</b>: Measurements of electric power consumption in
 one household with a one-minute sampling rate over a period of almost
