@@ -1,7 +1,8 @@
 #Getting and Cleaning Data
-###Project 1 - Standard Derivation and Mean bu Subect and Activity of Smartphones Data
-###Daniel A Stearns
-###September 24, 2015
+<B>Project 1 - Standard Derivation and Mean bu Subect and Activity of Smartphones Data</B>
+<B>Daniel A Stearns</B>
+<B>September 24, 2015</B>
+
 ## Introduction
 
 This assignment uses data from
