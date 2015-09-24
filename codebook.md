@@ -1,5 +1,7 @@
 #Getting and Cleaning Data
 #Project 1
+**Daniel A Stearns
+**September 24, 2015
 ## Introduction
 
 This assignment uses data from
