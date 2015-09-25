@@ -45,40 +45,35 @@ y_train.txt
 subject_test.txt
 x_test.txt
 y_test.txt
-Assign readable column names and combine into a single data set.
 
-##Objective 2: Extracts only the measurements on the mean and standard deviation for each measurement. 
-"activity_id" 
-"activity_dsc" 
-"subject_id" 
-"time_body_acceleration_magnitude_mean" 
-"time_body_acceleration_magnitude_stddev" 
-"time_gravity_acceleration_magnitude_mean" 
-"time_gravity_acceleration_magnitude_stddev" 
-"time_body_acceleration_jerk_magnitude_mean" 
-"time_body_acceleration_jerk_magnitude_stddev" 
-"time_body_gyro_magnitude_mean" 
-"time_body_gyro_magnitude_stddev" 
-"time_body_gyro_jerk_magnitude_mean" 
-"time_body_gyro_jerk_magnitude_stddev" 
-"fft_body_acceleration_magnitude_mean" 
-"fft_body_acceleration_magnitude_stddev" 
-"fft_body_acceleration_jerk_magnitude_mean" 
-"fft_body_acceleration_jerk_magnitude_stddev" 
-"fft_body_gyro_magnitude_mean" 
-"fft_body_gyro_magnitude_stddev" 
-"fft_body_gyro_jerk_magnitude_mean" 
-"fft_body_gyro_jerk_magnitude_stddev"
-XX
+##Objective 2: Extracts only the measurements on the mean and standard deviation for each measurement, they include. 
+Find all columns with mean and std in the name and remove any extranwous columns that do not meet criteria and create a filtered data with only those columns.
 
 ##Objective 3: Uses descriptive activity names to name the activities in the data set
-
-XXX
+Merge the combined data set with the activity data set to get appropriate description
 
 ##Objective 4: Appropriately labels the data set with descriptive variable names. 
-
-XX
+Use gsub and lapply to create standardized descriptive names for each measure. The attributes include:
+activity_id
+subject_id
+time_body_acceleration_magnitude_mean
+time_body_acceleration_magnitude_stddev 
+time_gravity_acceleration_magnitude_mean
+time_gravity_acceleration_magnitude_stddev
+time_body_acceleration_jerk_magnitude_mean
+time_body_acceleration_jerk_magnitude_stddev
+time_body_gyro_magnitude_mean
+time_body_gyro_magnitude_stddev
+time_body_gyro_jerk_magnitude_mean
+time_body_gyro_jerk_magnitude_stddev 
+fft_body_acceleration_magnitude_mean
+fft_body_acceleration_magnitude_stddev
+fft_body_acceleration_jerk_magnitude_mean
+fft_body_acceleration_jerk_magnitude_stddev
+fft_body_gyro_magnitude_mean
+fft_body_gyro_magnitude_stddev
+fft_body_gyro_jerk_magnitude_mean
+fft_body_gyro_jerk_magnitude_stddev
 
 ##Objective 5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
-
-XX
+create an aggregate od the dataset for export that uses the mean function to summarize the data to the activity and subject level.
